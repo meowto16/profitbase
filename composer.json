@@ -1,0 +1,26 @@
+{
+  "name": "Meowto16/ProfitBase",
+  "type": "library",
+  "homepage": "https://github.com/meowto16/",
+  "description": "Обертка для работы с запросами к ProfitBase API",
+  "keywords": ["profitbase", "api", "api-profitbase", "profitbase-api", "api-wrapper", "pb", "php"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Maxim Kirshin",
+      "email": "meowto16@gmail.com",
+      "homepage": "https://github.com/meowto16/",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "ext-json": "*",
+    "php": "^7.0",
+    "ext-curl": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Meowto16\\ProfitBase\\": "src/"
+    }
+  }
+}
