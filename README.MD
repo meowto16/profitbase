@@ -1,5 +1,5 @@
-[![Total Downloads](https://poser.pugx.org/drillcoder/amocrm_wrap/downloads)](https://packagist.org/packages/meowto16/profitbase)
-[![License](https://poser.pugx.org/drillcoder/amocrm_wrap/license)](https://packagist.org/packages/meowto16/profitbase)
+[![Total Downloads](https://poser.pugx.org/meowto16/profitbase/downloads)](https://packagist.org/packages/meowto16/profitbase)
+[![License](https://poser.pugx.org/meowto16/profitbase/license)](https://packagist.org/packages/meowto16/profitbase)
 
 # ProfitBase API Wrapper #
 Мини-обертка с методами для обращения к API ProfitBase, 
