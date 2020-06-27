@@ -26,7 +26,7 @@ if (file_exists($_SERVER["DOCUMENT_ROOT"] . "/vendor/autoload.php"))
 // https://developer.profitbase.ru/
 $handler = new \Meowto16\ProfitBase\Handler([
     "API_KEY" => "app-2s2sfc46x7jd5", // Ваш API-KEY, можно получить в личном кабинете
-    "API_URL" => "https://pb1961.profitbase.ru/api/v4/json", // API EndPoint
+    "API_URL" => "https://pbXXX.profitbase.ru/api/v4/json", // API EndPoint, где pbXXX - ваш sub.домен
     
     // Файл, куда будем кэшировать данные для авторизации, для последующих запросов. Важно, чтобы на него нельзя было зайти напрямую.
     "AUTH_JSON_PATH" => $_SERVER["DOCUMENT_ROOT"] . "/data/profitbase/authorize-data.json" 

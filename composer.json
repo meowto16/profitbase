@@ -1,5 +1,5 @@
 {
-  "name": "Meowto16/ProfitBase",
+  "name": "meowto16/profitbase",
   "type": "library",
   "homepage": "https://github.com/meowto16/",
   "description": "Обертка для работы с запросами к ProfitBase API",
