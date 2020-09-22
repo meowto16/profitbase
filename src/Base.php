@@ -60,7 +60,7 @@ class Base
             ], false);
 
             $tokenDataDecoded = $response;
-            $tokenDataDecoded["time_of_receive"] = date(U);
+            $tokenDataDecoded["time_of_receive"] = date("U");
             $tokenDataEncoded = json_encode($tokenDataDecoded);
             $tokenDataResource = fopen($authorizeDataFile, "w");
             fwrite($tokenDataResource, $tokenDataEncoded);
